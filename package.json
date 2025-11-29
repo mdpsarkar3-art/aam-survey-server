@@ -1,15 +1,14 @@
 {
   "name": "aam-survey-server",
   "version": "1.0.0",
-  "description": "Aayusman Arogya Mandir survey backend",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "better-sqlite3": "^8.0.0",
-    "cors": "^2.8.5",
     "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
     "csv-stringify": "^6.2.0",
     "dotenv": "^16.0.0"
   }
